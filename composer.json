@@ -1,0 +1,32 @@
+{
+    "name": "ptadmin/html",
+    "description": "简易使用php生成html标签的方法",
+    "license": "MIT",
+    "keywords": ["HTML"],
+    "type": "library",
+    "homepage": "https://github.com/ptadmin/html",
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.1",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "PTAdmin\\Html\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Zane",
+            "email": "fw@pangtou.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^9.6"
+    }
+}

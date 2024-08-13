@@ -1,0 +1,24 @@
+<?php
+
+declare(strict_types=1);
+/**
+ * Author: Zane
+ * Email: 873934580@qq.com
+ * Date: 2022/3/22.
+ */
+
+namespace PTAdmin\Html\Components;
+
+use PTAdmin\Html\BaseHtml;
+use PTAdmin\Html\IRender;
+
+class Label extends BaseHtml implements IRender
+{
+    public function __construct($content, $for = null, $options = [])
+    {
+        $for && $options['for'] = $for;
+        $this->setName('label');
+        $this->setOptions($options);
+        $this->setContent($content);
+    }
+}
