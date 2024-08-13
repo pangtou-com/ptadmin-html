@@ -1,6 +1,7 @@
 {
     "name": "ptadmin/html",
     "description": "简易使用php生成html标签的方法",
+    "version": "0.0.1",
     "license": "MIT",
     "keywords": ["HTML"],
     "type": "library",
