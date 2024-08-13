@@ -1,3 +1,13 @@
+<p align="center">
+    <a href="https://www.pangtou.com"><img src="./public/logo.jpg" style="height: 500px" alt="PTAdmin"></a>
+</p>
+
+# ptadmin/html
+[![Version](https://img.shields.io/packagist/v/ptadmin/html?label=version)](https://packagist.org/packages/ptadmin/html)
+[![Downloads](https://img.shields.io/packagist/dt/ptadmin/html)](https://packagist.org/packages/ptadmin/html)
+[![License](https://img.shields.io/packagist/l/ptadmin/html)](https://packagist.org/packages/ptadmin/html)
+[![PTAdmin](https://img.shields.io/static/v1?label=Docs&message=PTAdmin&logo=readthedocs)](https://www.pangtou.com)
+
 ### 安装
 > composer require ptadmin/html
 
