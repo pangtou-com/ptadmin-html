@@ -1,5 +1,5 @@
 ### 安装
-> composer require ptadmin/html -vvv
+> composer require ptadmin/html
 
 ### 使用方式
 ```php
