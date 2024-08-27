@@ -14,11 +14,11 @@ use PTAdmin\Html\IRender;
 
 class Checkbox extends BaseHtml implements IRender
 {
-    public function __construct($name, $content, $checked = false, $options = [])
+    public function __construct($name, $content = '', $checked = false, $options = [])
     {
         $options['type'] = 'checkbox';
         $options['name'] = $name;
-        $options['value'] = \array_key_exists('value', $options) ? $options['value'] : '1';
+        $options['value'] = \array_key_exists('value', $options) ? $options['value'] : '';
         !isset($options['checked']) && $options['checked'] = (bool) $checked;
         $this->setContent($content);
         $this->setOptions($options);

@@ -114,7 +114,7 @@ class BaseHtml
         in_array($name, self::$voidElements) && $closeTag = '/';
         $html = "<{$name} ".Attributes::render($options)."{$closeTag}>";
 
-        return '' !== $closeTag ? $html.$content : "{$html} {$content}</{$name}>";
+        return '' !== $closeTag ? $html.$content : "{$html}{$content}</{$name}>";
     }
 
 }
