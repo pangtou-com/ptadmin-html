@@ -14,7 +14,7 @@ use PTAdmin\Html\Exception\HtmlException;
  * @method static string button(string $content = 'Button', array $options = [])                      标准按钮
  * @method static string reset(string $content = 'Reset', array $options = [])                        重置按钮
  * @method static string submit(string $content = 'Submit', array $options = [])                      提交按钮
- * @method static string checkbox(string $name, $content, bool $checked = false, array $options = []) 多选
+ * @method static string checkbox(string $name, $content = '', bool $checked = false, array $options = []) 多选
  * @method static string checkboxs(string $name, array $item, $checked = '', array $options = [])     分组多选 checked支持字符串或数组格式
  * @method static string file(string $name, $value = null, array $options = [])                       文件上传
  * @method static string form(string $name, $content, array $options = [])                            form表单

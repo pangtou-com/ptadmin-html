@@ -14,7 +14,7 @@ use PTAdmin\Html\IRender;
 
 class A extends BaseHtml implements IRender
 {
-    public function __construct($text, $url, $options = [])
+    public function __construct($text, $url = '', $options = [])
     {
         $options['href'] = $url;
         $this->setOptions($options);
